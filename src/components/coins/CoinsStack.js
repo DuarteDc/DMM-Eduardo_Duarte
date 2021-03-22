@@ -4,7 +4,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import CoinsScreen from './CoinsScreen';
 import CoinDetailsScreen from './CoinDetailsScreen';
-
+import HomeScreen from './HomeScreen';
+import CategoryScreen from './CategoryScreen';
 const Stack = createStackNavigator();
 
 
@@ -18,8 +19,8 @@ const CoinsStack = () => {
             />
 
             <Stack.Screen 
-            name="CoinDetailsScreen"  
-            component={CoinDetailsScreen}
+            name="CategoryScreen"  
+            component={CategoryScreen}
             />
 
         </Stack.Navigator>

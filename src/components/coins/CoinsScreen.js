@@ -6,7 +6,7 @@ import {View, Text, Pressable, StyleSheet} from 'react-native';
 class CoinsScreen extends Component{
     handlesPress=()=>{
         console.log("pantalla de detalle",this.props);
-        this.props.navigation.navigate("CoinDetailsScreen");
+        this.props.navigation.navigate("CategoryScreen");
     }
     render(){
         return(
