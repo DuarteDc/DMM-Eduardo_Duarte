@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     box2: {
         flex:.5,
         flexDirection:'row',
-        margin: 30,
+        margin: 25,
         justifyContent:'center'
     },
     box21: {
